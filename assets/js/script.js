@@ -933,3 +933,20 @@
 	});	
 
 })(window.jQuery);
+
+        // Function to hide everything before .html in the URL
+        function hideHtmlAndFile() {
+            // Get the current path
+            const path = window.location.pathname;
+
+            // Check if the current path ends with .html
+            if (path.endsWith(".html")) {
+                // Create a new path for the root URL
+                const newPath = "/";
+                // Replace the current URL with the new path
+                window.history.replaceState(null, "", newPath);
+            }
+        }
+
+        // Call the function on page load
+        window.onload = hideHtmlAndFile;
