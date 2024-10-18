@@ -934,6 +934,7 @@
 
 })(window.jQuery);
 
+/* ==========================================================================
         // Function to hide everything before .html in the URL
         function hideHtmlAndFile() {
             // Get the current path
@@ -950,3 +951,4 @@
 
         // Call the function on page load
         window.onload = hideHtmlAndFile;
+		   ========================================================================== */
