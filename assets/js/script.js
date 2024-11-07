@@ -951,7 +951,7 @@
 
 		// Call the function on page load
 		window.onload = hideHtmlAndFile;
-		   ========================================================================== */
+		   
 
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', () => {
@@ -964,6 +964,7 @@ if ('serviceWorker' in navigator) {
 			});
 	});
 }
+	========================================================================== */
 
 let deferredPrompt;
 window.addEventListener('beforeinstallprompt', (e) => {
